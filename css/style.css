@@ -1,0 +1,187 @@
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	color:#777777;
+}
+header{
+	background-image: url("../images/headerbg.jpg");
+	padding:20px 0 50px 0;
+
+}
+.header-contents{
+	padding:60px 0;
+	text-align:center;
+}
+header p{
+	font-size: 22px;
+	font-weight:300;
+	text-align:center;
+	color:#ffffff;
+}
+header h1{
+	text-align:center;
+	font-size:46px;
+	color:#ffffff;
+	font-weight:700;
+	padding-bottom: 20px;
+}
+header button{
+	background: rgb(0,0,0,.0);
+	font-size:14px;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	padding:15px 30px;
+}
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo{
+	width:10%;
+	float:left;
+	margin-top:5px;
+}
+.menu{
+	width:80%;
+	float:right;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding:0 30px;
+	color:#ffffff;
+}
+.menu ul li:hover a{
+	color:fcfcfc;
+}
+
+
+/*features starts*/
+.features{
+	padding:50px 0;
+}
+.greybg{
+	background-color: #FAFAFA;
+}
+.wrapper2{
+	width:70%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.features .wrapper2 .marginleft{
+	margin-left: 60px;
+}
+.features .wrapper2 .content{
+	width:60%;
+	float:left;
+}
+.features .wrapper2 .content h1{
+	font-size:30px;
+	color:#222222;
+	font-weight:400;
+}
+.features .wrapper2 .content h1 span{
+	font-weight:700;
+}
+.features .wrapper2 .content p{
+	font-size: 14px;
+	font-weight:300;
+	color:#777777;
+	text-align: justify;
+}
+.features .wrapper2 .image{
+	width:20%;
+	float:left;
+}
+.features .wrapper2 .image img{
+	width:100%;
+	padding-top: 30px;
+}
+/*features ends*/
+
+/*services starts*/
+.services{
+	padding:50px 0;
+}
+.services .single{
+	width:50%;
+	float:left;
+}
+.services .single .icon{
+	width:15%;
+	float:left;
+	padding-top:20px;
+}
+.services .single .icon img{
+	width:100%;
+}
+.services .single .icon-text{
+	width:60%;
+	float:left;
+	margin-left: 10px;
+}
+.services .single .icon-text h2{
+	font-size:18px;
+	color:#222222;
+}
+.services .single .icon-text p{
+	font-size: 14px;
+}
+/*services ends*/
+
+/*Out Clients Start*/
+.our-clients{
+	padding:50px 0;
+}
+.our-clients .client{
+	overflow: hidden;
+}
+.our-clients .client .marginleft{
+	margin-left: 60px;
+}
+.our-clients .client .photo{
+	width:20%;
+	float:left;
+	display: inline-block;
+	vertical-align: middle;
+}
+.our-clients .client .photo img{
+	width:100%;
+}
+.our-clients .client .client-about{
+	width:60%;
+	float:left;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 2px #ededed;
+	padding:15px;
+	margin-top: 15px;
+}
+.our-clients .client .client-about .p-designation{
+	font-size: 14px;
+	color:#7690c5;
+}
+/*Out Clients End*/
+
+/*Sponsors starts*/
+.sponsors{
+	padding:50px 0;
+}
+.sponsors .container{
+	overflow: hidden;
+}
+.sponsors .container img{
+	width:20%;
+	float:left;
+	margin-left: 4%;
+}
+
+/*Sponsors ends*/
